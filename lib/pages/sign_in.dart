@@ -97,7 +97,7 @@ class _SignInState extends State<SignIn> {
                 ),
                 const SizedBox(height: 20),
                 const Text(
-                  'Welcome Steve',
+                  'Welcome Deepak',
                   style: TextStyle(
                     fontSize: 28,
                     fontWeight: FontWeight.bold,
