@@ -36,7 +36,9 @@ class _SignInState extends State<SignIn> {
         email: _emailController.text.trim(),
         password: _passwordController.text.trim(),
       );
-
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(const SnackBar(content: Text("Login Sucessful")));
       print("Login Sucessful");
       // Success - Navigation would happen here
     } on FirebaseAuthException catch (e) {
