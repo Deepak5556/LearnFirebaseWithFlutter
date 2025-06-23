@@ -37,7 +37,6 @@ class _SignInState extends State<SignIn> {
         password: _passwordController.text.trim(),
       );
       ScaffoldMessenger.of(
-        // ignore: use_build_context_synchronously
         context,
       ).showSnackBar(const SnackBar(content: Text("Login Sucessful")));
       print("Login Sucessful");
